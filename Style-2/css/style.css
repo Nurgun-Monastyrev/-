@@ -1,0 +1,68 @@
+/* .header {
+    width: 500px;
+    height: 200px;
+    background-color: blue;
+    background-image: url(../img/bg.jpg);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bigSection {
+    height: 300px;
+    background-image: url(../img/bg.jpg);
+    background-attachment: fixed;
+} */
+
+/* .bordered {
+    height: 500px;
+    width: 500px;
+    border: 10px double navajowhite;
+    /* border-color: navy;
+    border-width: 10px;
+    border-style: double;
+    border-radius: 250px;
+} */
+
+/* .linear {
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(45deg, red, blue)
+}
+.radial {
+    width: 300px;
+    height: 300px;
+    background-image: radial-gradient(black, red)
+}
+.shadow {
+    width: 300px;
+    height: 500px;
+    box-shadow: 20px 20px 10px green;
+} */
+
+/* .heading h1 {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-shadow: 5px 5px 10px red;
+}
+.paragraph {
+    line-height: 30px;
+    letter-spacing: 5px;
+} */
+/* @import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+.heading h1{
+    font-size: 100px;
+    font-weight: normal;
+    font-style: italic;
+    font-family: 'Festive', cursive;
+}
+
+.p2 {
+    font-family: 'Festive', cursive;
+} */
+
+.d1 {
+    width: 300px;
+    height: 500px;
+    background-position: top right;
+}
