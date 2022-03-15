@@ -1,0 +1,98 @@
+@import url(reset.css);
+
+.header {
+    position: fixed;
+    display: flex;
+    background-color: #2B2B2B;
+    width: 100%;
+    height: 100px;
+}
+.logo { 
+    margin: 15px 0px 0px 5.5%;
+    height: 70px; 
+}
+.headText {
+    width: 100%;
+    margin-top: 30px;
+    margin-right: 13%;
+
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #ffffff;
+}
+.headText span {
+    color: #28B2ED;
+}
+
+
+.content {
+    padding-top: 100px;
+}
+.mainImg {
+    text-align: center;
+}
+.blocks {
+    padding: 10px 5.5% 0px 5.5%;
+    display: flex;
+    justify-content: space-between;
+}
+.b1 {
+    width: 500px;
+    height: 730px;
+    background-color: #5BC7EC;
+    border-radius: 10px;
+}
+.mainTextBlock {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.textBlock {
+    margin: 0px 20px;
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #EDEDED;
+}
+.links {
+    margin: 10px 5.5% 0px 5.5%;
+    height: 200px;
+    background-color: #5BC7EC;
+    border-radius: 10px;
+}
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 150px;
+}
+.linksText {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 21px;
+
+    color: #EDEDED;
+}
+.link img {
+    height: 24px;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2B2B2B;
+    height: 100px;
+    margin-top: 50px;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color:#ffffff
+}
