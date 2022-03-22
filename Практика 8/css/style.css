@@ -1,0 +1,131 @@
+@import url(reset.css);
+
+body {
+    background: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.page {
+    height: 100%;
+}
+
+.header {
+    width: 80%;
+    height: 100px;
+    background: linear-gradient(90deg, #4F6280 40%,#E2EBF2 100%);
+    margin: 0 0 0 10%;
+    border-radius: 0 0 30px 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left {
+    width: 70%;
+}
+
+.right {
+    width: 30%;
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav a {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration:none;
+    color: #f0a630;
+}
+
+.authorization {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.authorization a {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration:none;
+    color: #D7A350;
+}
+
+.content {    
+    width: 80%;
+    margin: 20px 10% 0 10%;
+    min-height: 90vh;
+}
+
+.forma {
+    width: 60%;
+    height: 750px;
+    background: linear-gradient(45deg, #e2ebf2c5 -30%,#4F6280 100%);
+    border-radius: 30px;
+    margin: 0 0 0 40%;
+    padding: 20px 0;
+}
+
+.forma form {
+    margin: 0px 5%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+input[type="text"], input[type="number"], input[type="email"] {
+    margin-top: 10px;
+    width: 100%;
+
+    border: none;
+    border-bottom: 1px solid #f0a630;
+    background-color: transparent;
+    height: 24px;
+    font-size: 18px;
+    outline: none;
+    color: #fff;
+}
+
+input[type="reset"], input[type="submit"] {
+    width: 120px;
+    height: 36px;
+    font-size: 18px;
+    border-radius: 7px;
+    background-color: #f0a630;
+    color: #fff;
+}
+
+span {
+    color: red;
+}
+
+.forma form div {
+    font-size: 18px;
+    color: #f0a630;
+}
+
+.footer {
+    width: 80%;
+    height: 50px;
+    background: linear-gradient(90deg, #4F6280 40%,#E2EBF2 100%);
+    border-radius: 30px 30px 0px 0px;
+    margin: 0 0 0 10%;
+
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration:none;
+    color: #D7A350;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
