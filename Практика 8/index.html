@@ -3,21 +3,24 @@
 <head>
 	<title>Тема 8: Верстка форм</title>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" media="(max-width: 480px)" href="css/mediaQueries.css">
 </head>
 <body>
 	<div class="page">
 		<div class="header">
 			<div class="left">
 				<div class="nav">
-					<a href="">Главное</a>
-					<a href="">Отправить</a>
-					<a href="">Где мой заказ?</a>
-					<a href="">О нас</a>
+					<a class="off" href="">Главное</a>
+					<a class="off" href="">Отправить</a>
+					<a class="off" href="">Где мой заказ?</a>
+					<a class="off" href="">О нас</a>
+					<a href="">Меню</a>
 				</div>
 			</div>
-			<div class="right">
-				<div class="authorization">
+			<div class="right off">
+				<div class="authorization">	
 					<a href="">Регистрация</a>
 					/
 					<a href="">Вход</a>
@@ -51,7 +54,7 @@
 						Вес<span>*</span>
 						<input required  type="number">
 					</div>					
-					<div>
+					<div class="buttons">
 						<input type="reset">
 						<input type="submit">
 					</div>

@@ -1,0 +1,31 @@
+
+.content {    
+    width: 80%;
+    margin: 20px 10% 20px 10%;
+    min-height: 90vh;
+}
+
+.forma {
+    width: 100%;
+    height: 750px;
+    background: linear-gradient(45deg, #e2ebf2c5 -30%,#4F6280 100%);
+    border-radius: 30px;
+    margin: 0 0 0 0;
+    padding: 20px 0;
+}
+
+.forma form {
+    margin: 0px 5%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.off {
+    display: none;
+}
+
+.buttons {
+    text-align: center;
+}
